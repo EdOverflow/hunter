@@ -1,4 +1,4 @@
-# Insecure Randomness
+# Randomness
 
 A PRNG is an algorithm used to produce random-looking numbers with certain desirable statistical properties. In order for a PRNG to be cryptographically secure it must be resistant to prediction.
 
