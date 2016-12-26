@@ -1,6 +1,6 @@
 # Reverse Tabnabbing
 
-The following <a href="https://edwinfoudil.com/hunter/demo/reverse-tabnabbing.html" target="_blank">link</a> is vulnerable to reverse tabnabbing, because it uses `target="_blank"`:
+The following <a href="https://example.com/" target="_blank">link</a> is vulnerable to reverse tabnabbing, because it uses `target="_blank"`:
 
 ~~~
 <a href="https://example.com/" target="_blank">link</a>
@@ -14,6 +14,6 @@ In order to mitigate this issue, developers are encouraged to use `rel="nofollow
 <a href="https://example.com/" target="_blank" rel="nofollow noopener noreferrer">link</a>
 ~~~
 
-Now when you click on this <a href="https://edwinfoudil.com/demo/code/reverse-tabnabbing.html" target="_blank" rel="nofollow noopener noreferrer">link</a>, the attacker cannot access the initial tab.
+Now when you click on this <a href="https://example.com/" target="_blank" rel="nofollow noopener noreferrer">link</a>, the attacker cannot access the initial tab.
 
 For more on reverse tabnabbing, please refer to the following page: https://www.jitbit.com/alexblog/256-targetblank---the-most-underestimated-vulnerability-ever/
