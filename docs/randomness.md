@@ -39,6 +39,7 @@ def getrandbits(self, k):
 ~~~
 
 Link to docs: https://docs.python.org/2/library/random.html
+
 Link to source code: https://hg.python.org/cpython/file/2.7/Lib/random.py#l805
 
 ## The secrets module
@@ -54,4 +55,5 @@ _sysrand = SystemRandom()
 ~~~
 
 Link to docs: https://docs.python.org/dev/library/secrets.html
+
 Link to source code: https://hg.python.org/cpython/file/3.6/Lib/secrets.py
