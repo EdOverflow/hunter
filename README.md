@@ -4,7 +4,7 @@ Demonstrations of vulnerable code and security issues for Python developers. The
 
 # Author
 
-Hunter was created by @EdOverflow.
+Hunter was created by [@EdOverflow](https://github.com/EdOverflow).
 
 # License
 
