@@ -1,6 +1,6 @@
 # Hunter
 
-Demonstrations of vulnerable code and security issues for Python developers. The vulnerabilities vary in severity.
+Guidelines for writing secure code for Python developers. Hunter demonstrates vulnerable code and security issues that vary in severity, and explains how these issues can be mitigated.
 
 # Author
 
