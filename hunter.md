@@ -300,6 +300,21 @@ In the `demo` folder you will find code that demonstrates a theoretical timing a
 | Round 1 | 2463 ms                   | 2365 ms                   | 2310 ms                   | 2329 ms                   |
 | Round 2 | 2219 ms                   | 2175 ms                   | 2156 ms                   | 2188 ms                   |
 
+### Dict Hash Table Lookups
+
+The following code looks up keys in a dict hash table, which may cause timing leaks too. The time taken depends on what is already located in the table.
+
+~~~python
+def findkey(name):
+    for key in list_keys():
+        for id in key['ids']:
+            if name in id:
+                return key['value']
+    return None
+~~~
+
+
+
 **👍 Use this instead:**
 
 ~~~python
