@@ -293,13 +293,12 @@ The `==` and `!=` operations do a byte-by-byte comparison of two values and as s
 
 This means the longer it takes until the operation returns, the more correct characters the attacker has guessed.
 
-In the `demo` folder you will find code that demonstrates a theoretical timing attack. When running the different operations we can clearly see we are getting hotter, since each iteration takes longer.
+In the `demo` folder you will find code that demonstrates a theoretical timing attack. When running the different operations we can clearly see a significant timing leak.
 
-~~~
-1482777135.5899296
-1482777135.6195188
-1482777135.6365209
-~~~
+| Round   | timing_attack_diff_tokens | timing_attack_same_tokens | constant_time_diff_tokens | constant_time_same_tokens |
+|---------|---------------------------|---------------------------|---------------------------|---------------------------|
+| Round 1 | 2463 ms                   | 2365 ms                   | 2310 ms                   | 2329 ms                   |
+| Round 2 | 2219 ms                   | 2175 ms                   | 2156 ms                   | 2188 ms                   |
 
 **👍 Use this instead:**
 
