@@ -4,24 +4,24 @@ By @EdOverflow
 
 # Table of Contents
 
-1) Authentication
-2) Cross-Site Request Forgery (CSRF)
-	2.1) Generating CSRF tokens
-3) Cross-Site Scripting (XSS)
-	3.1) Reflected XSS
-	3.2) Stored XSS
-	3.3) Self-XSS
-	3.4) DOM based XSS
-4) Cryptography
-	4.1) HTTPS
-	4.2) Randomness
-	4.3) Password Storage
-	4.4) Timing Attacks
-5) Denial of Service
-6) Information Disclosure
-7) SQL Injection
-8) Unvalidated / Open Redirects
-9) Best Practices
+- [1) Authentication](#1-authentication)
+- [2) Cross-Site Request Forgery (CSRF)](#2-cross-site-request-forgery-csrf)
+	- [2.1) Generating CSRF tokens](#21-generating-csrf-tokens)
+- [3) Cross-Site Scripting (XSS)](#3-cross-site-scripting-xss)
+	- [3.1) Reflected XSS](#31-reflected-xss)
+	- [3.2) Stored XSS](#32-stored-xss)
+	- [3.3) Self-XSS](#33-self-xss)
+	- [3.4) DOM based XSS](#34-dom-based-xss)
+- [4) Cryptography](#4-cryptography)
+	- [4.1) HTTPS]()
+	- [4.2) Randomness]()
+	- [4.3) Password Storage](#43-password-storage)
+	- [4.4) Timing Attacks](#44-timing-attacks)
+- [5) Denial of Service](#5-denial-of-service)
+- [6) Information Disclosure](#6-information-disclosure)
+- [7) SQL Injection](#7-sql-injection)
+- [8) Unvalidated / Open Redirects](#8-unvalidated--open-redirects)
+- [9) Best Practices](#9-best-practices)
 
 # 1) Authentication
 
